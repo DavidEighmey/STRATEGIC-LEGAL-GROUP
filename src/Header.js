@@ -18,15 +18,15 @@ class Header extends Component{
 			        <span className="icon-bar"></span>
 			      </button>
 			      <a className="navbar-brand" href="#">
-        			<img alt="Brand" height="35" width="35"src={slg_logo} ></img>
+        			<img alt="Brand" height="40" width="40"src={slg_logo} ></img>
       			</a>
 	        </div>
 
 			    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul className="nav navbar-nav">
-			        <li><a className="nav-items" href="#">Estate Planning</a></li>
-			        <li><a className="nav-items" href="#">Elder Law</a></li>
-			        <li><a className="nav-items" href="#">Business</a></li>
+			        <li><a className="nav-items" href="#"><h4>Estate Planning</h4></a></li>
+			        <li><a className="nav-items" href="#"><h4>Elder Law</h4></a></li>
+			        <li><a className="nav-items" href="#"><h4>Business</h4></a></li>
 			      </ul>
 			      <ul className="nav navbar-nav navbar-right">
 			        <li><a href="https://www.facebook.com/SLCounsel/" target="_blank">
@@ -43,7 +43,6 @@ class Header extends Component{
 			        <div className="form-group">
 			          <input type="text" className="form-control" placeholder="Search"></input>
 			        </div>
-			        <button type="submit" className="btn btn-default">Submit</button>
 			      </form>
 			    </div>
 	      </div>
