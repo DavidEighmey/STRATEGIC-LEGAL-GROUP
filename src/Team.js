@@ -11,13 +11,13 @@ class Team extends Component{
 	  			   <Row className="show-grid">
 				      <Col xs={12} md={4}>
 
-				     		<h3>Julianna Cook</h3>
+				     		<h3>Julianna </h3>
 				     		<p>Creative Director</p>
 
 				      </Col>
 				      <Col xs={12} md={4}>
 				      	
-				      	<h3>Gus Dotson</h3>
+				      	<h3>Gus </h3>
 				      	<p>Select social links from ign.com are automatically included in your Team Section</p>
 				      </Col>
 				      <Col xs={12} md={4}>

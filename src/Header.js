@@ -27,6 +27,7 @@ class Header extends Component{
 			        <li><a className="nav-items" href="#"><h4>Estate Planning</h4></a></li>
 			        <li><a className="nav-items" href="#"><h4>Elder Law</h4></a></li>
 			        <li><a className="nav-items" href="#"><h4>Business</h4></a></li>
+			        <li><a className="nav-items" href="#"><h4>Real Estate</h4></a></li>
 			      </ul>
 			      <ul className="nav navbar-nav navbar-right">
 			        <li><a href="https://www.facebook.com/SLCounsel/" target="_blank">
