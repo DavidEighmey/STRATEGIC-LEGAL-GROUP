@@ -4,7 +4,8 @@ import Header from './Header';
 import Landing from './Landing';
 import Carousell from './Carousel';
 import Team from './Team';
-import BlogFrontPage from './BlogFrontPage'
+import BlogFrontPage from './BlogFrontPage';
+import CustomReviews from './CustomReviews';
 import './index.css';
 	
 ReactDOM.render(
@@ -30,4 +31,8 @@ ReactDOM.render(
 ReactDOM.render(
 	<BlogFrontPage />,
 	document.getElementById('blog-front-page')
+);
+ReactDOM.render(
+	<CustomReviews />,
+	document.getElementById('custom-reviews')
 );
