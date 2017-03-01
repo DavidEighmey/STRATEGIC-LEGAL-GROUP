@@ -24,7 +24,7 @@ class Header extends Component{
 
 			    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul className="nav navbar-nav">
-			        <li><a className="nav-items" href="#"><h4>Estate Planning</h4></a></li>
+			        <li><a className="nav-items" href="/estate-planning.html"><h4>Estate Planning</h4></a></li>
 			        <li><a className="nav-items" href="#"><h4>Elder Law</h4></a></li>
 			        <li><a className="nav-items" href="#"><h4>Business</h4></a></li>
 			        <li><a className="nav-items" href="#"><h4>Real Estate</h4></a></li>
