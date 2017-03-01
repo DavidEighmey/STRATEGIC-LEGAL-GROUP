@@ -6,6 +6,8 @@ import Carousell from './Carousel';
 import Team from './Team';
 import BlogFrontPage from './BlogFrontPage';
 import CustomReviews from './CustomReviews';
+import SpecialOffers from './SpecialOffers';
+import Footer from './Footer';
 import './index.css';
 	
 ReactDOM.render(
@@ -32,7 +34,18 @@ ReactDOM.render(
 	<BlogFrontPage />,
 	document.getElementById('blog-front-page')
 );
+
 ReactDOM.render(
 	<CustomReviews />,
 	document.getElementById('custom-reviews')
+);
+
+ReactDOM.render(
+	<SpecialOffers />,
+	document.getElementById('special-offers')
+);
+
+ReactDOM.render(
+	<Footer />,
+	document.getElementById('footer')
 );
