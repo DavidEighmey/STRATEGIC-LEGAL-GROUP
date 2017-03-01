@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
 import './SpecialOffers.css';
 
 
