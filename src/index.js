@@ -4,6 +4,7 @@ import Header from './Header';
 import Landing from './Landing';
 import Carousell from './Carousel';
 import Team from './Team';
+import BlogFrontPage from './BlogFrontPage'
 import './index.css';
 	
 ReactDOM.render(
@@ -24,4 +25,9 @@ ReactDOM.render(
 ReactDOM.render(
 	<Team />,
 	document.getElementById('team')
+);
+
+ReactDOM.render(
+	<BlogFrontPage />,
+	document.getElementById('blog-front-page')
 );
