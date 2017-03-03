@@ -3,6 +3,7 @@ import slg_logo from './SLG_Logo.png';
 import facebook from './facebook.ico';
 import twitter from './Twitter-icon.png';
 import linkedin from './linkedin-512.png';
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
 import './App.css';
 
 class Header extends Component{
@@ -24,10 +25,10 @@ class Header extends Component{
 
 			    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul className="nav navbar-nav">
-			        <li><a className="nav-items" href="/estate-planning.html"><h4>Estate Planning</h4></a></li>
-			        <li><a className="nav-items" href="#"><h4>Elder Law</h4></a></li>
-			        <li><a className="nav-items" href="#"><h4>Business</h4></a></li>
-			        <li><a className="nav-items" href="#"><h4>Real Estate</h4></a></li>
+			        <li><Link className="nav-items" to="/estate-planning"><h4>Estate Planning</h4></Link></li>
+			        <li><Link className="nav-items" to="/elder-law"><h4>Elder Law</h4></Link></li>
+			        <li><Link className="nav-items" to="/business"><h4>Business</h4></Link></li>
+			        <li><Link className="nav-items" to="/real-estate"><h4>Real Estate</h4></Link></li>
 			      </ul>
 			      <ul className="nav navbar-nav navbar-right">
 			        <li><a href="https://www.facebook.com/SLCounsel/" target="_blank">

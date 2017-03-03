@@ -1,51 +1,116 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Component } from 'react';
 import Header from './Header';
+import { render } from 'react-dom'
 import Landing from './Landing';
 import Carousell from './Carousel';
 import Team from './Team';
 import BlogFrontPage from './BlogFrontPage';
 import CustomReviews from './CustomReviews';
 import SpecialOffers from './SpecialOffers';
+import EstatePlanning from './EstatePlanning';
+import ElderLaw from './ElderLaw';
+import Business from './Business';
+import RealEstate from './RealEstate';
 import Footer from './Footer';
 import './index.css';
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
 	
-ReactDOM.render(
-	<Header />,
-	document.getElementById('header')
-);
 
-ReactDOM.render(
-	<Landing />,
-	document.getElementById('landing')
-);
+// const App = React.createClass({
+//   render() {
+//     return (
+//     	<div>
+// 	    	<Header />
+// 				<Landing />
+// 				<Carousell />
+// 				<Team />
+// 				<BlogFrontPage />
+// 				<CustomReviews />
+// 				<SpecialOffers />
+// 				<Footer />
+// 			</div>
+//     )
+//   }
+// })
 
-ReactDOM.render(
-	<Carousell />,
-	document.getElementById('carousel')
-);
+const FrontPage = React.createClass({
+  render() {
+    return (
+    	<div>
+	    	<Header />
+				<Landing />
+				<Carousell />
+				<Team />
+				<BlogFrontPage />
+				<CustomReviews />
+				<SpecialOffers />
+				<Footer />
+			</div>
+    )
+  }
+})
 
-ReactDOM.render(
-	<Team />,
-	document.getElementById('team')
-);
+const EstatePlanningPage = React.createClass({
+  render() {
+    return (
+    	<div>
+	    	<Header />
+				<EstatePlanning />
+				<Footer />
+			</div>
+    )
+  }
+})
 
-ReactDOM.render(
-	<BlogFrontPage />,
-	document.getElementById('blog-front-page')
-);
+const ElderLawPage = React.createClass({
+  render() {
+    return (
+    	<div>
+	    	<Header />
+				<ElderLaw />
+				<Footer />
+			</div>
+    )
+  }
+})
 
-ReactDOM.render(
-	<CustomReviews />,
-	document.getElementById('custom-reviews')
-);
+const BusinessPage = React.createClass({
+  render() {
+    return (
+    	<div>
+	    	<Header />
+				<Business />
+				<Footer />
+			</div>
+    )
+  }
+})
 
-ReactDOM.render(
-	<SpecialOffers />,
-	document.getElementById('special-offers')
-);
+const RealEstatePage = React.createClass({
+  render() {
+    return (
+    	<div>
+	    	<Header />
+				<RealEstate />
+				<Footer />
+			</div>
+    )
+  }
+})
 
-ReactDOM.render(
-	<Footer />,
-	document.getElementById('footer')
-);
+render((
+  <Router history={hashHistory}>
+    <Route path="/" component={FrontPage}>
+    </Route>
+    <Route path="estate-planning" component={EstatePlanningPage}>
+    </Route>
+    <Route path="elder-law" component={ElderLawPage}>
+    </Route>
+    <Route path="business" component={BusinessPage}>
+    </Route>
+    <Route path="real-estate" component={RealEstatePage}>
+    </Route>
+  </Router>
+), document.getElementById('front-page'))
