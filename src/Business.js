@@ -8,12 +8,12 @@ class Business extends Component{
 	  			<div className="landing-background">
 		  			<h1>Business</h1>
 		  			<h3 className="site-description">
-							Business stuffs		  			
+							Business stuffs
 						</h3>
 		  			<h3>
 		  			Phone: (209) 683-1616
 		  			</h3>
-	  			</div>	
+	  			</div>
 	  		</div>
 			</div>
 		);

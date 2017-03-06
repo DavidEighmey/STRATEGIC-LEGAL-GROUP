@@ -16,7 +16,6 @@ class Team extends Component{
 
 				      </Col>
 				      <Col xs={12} md={4}>
-				      	
 				      	<h3>Gus </h3>
 				      	<p>Select social links from ign.com are automatically included in your Team Section</p>
 				      </Col>

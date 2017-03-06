@@ -23,7 +23,7 @@ class BlogFrontPage extends Component {
 
 	      	</Col>
 	      	<Col xs={12} md={4}>
-	      	
+
 	      		<h3>Blog 2: title </h3>
 	      		<p>this will be the second and second latest blog!! its gonna be awesome</p>
 	      		<a href="">Continue reading <span className="glyphicon glyphicon-chevron-right"></span></a>

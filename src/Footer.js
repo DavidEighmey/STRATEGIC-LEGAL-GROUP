@@ -25,15 +25,15 @@ class Footer extends Component {
 									121 West Main Street, Suite F <br/>
 									Turlock, CA 95380 <br/>
 									Phone: (209) 683-1616<br/>
-							</p>		     			
+							</p>
 		      	</Col>
 		      	<Col xs={12} md={3}>
-		     			<h5>Google maps will go right here</h5>		     			
+		     			<h5>Google maps will go right here</h5>
 		     			<p>map</p>
 		      	</Col>
 		      	<Col xs={12} md={3}>
 		     			<h5>Our Latest Tweets</h5>
-							<p>Twitter widget will go right here</p>		     			
+							<p>Twitter widget will go right here</p>
 		     		</Col>
 	  			</Row>
 	  		</div>

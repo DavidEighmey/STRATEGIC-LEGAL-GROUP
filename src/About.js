@@ -8,12 +8,12 @@ class About extends Component{
 	  			<div className="landing-background">
 		  			<h1>About</h1>
 		  			<h3 className="site-description">
-							About stuffs		  			
+							About stuffs
 						</h3>
 		  			<h3>
 		  			Phone: (209) 683-1616
 		  			</h3>
-	  			</div>	
+	  			</div>
 	  		</div>
 			</div>
 		);
