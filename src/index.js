@@ -14,6 +14,7 @@ import ElderLaw from './ElderLaw';
 import Business from './Business';
 import RealEstate from './RealEstate';
 import Footer from './Footer';
+import About from './About';
 import './index.css';
 import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
 	
@@ -48,6 +49,18 @@ const FrontPage = React.createClass({
 				<SpecialOffers />
 				<Footer />
 			</div>
+    )
+  }
+})
+
+const AboutPage = React.createClass({
+  render() {
+    return (
+      <div>
+        <Header />
+        <About />
+        <Footer />
+      </div>
     )
   }
 })
@@ -111,6 +124,8 @@ render((
     <Route path="business" component={BusinessPage}>
     </Route>
     <Route path="real-estate" component={RealEstatePage}>
+    </Route>
+    <Route path="about" component={AboutPage}>
     </Route>
   </Router>
 ), document.getElementById('front-page'))

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
 import './Landing.css';
 
 class Landing extends Component{
@@ -14,7 +15,7 @@ class Landing extends Component{
 		  			<h3>
 		  			Phone: (209) 683-1616
 		  			</h3>
-		  			<button className="btn btn-default btn-lg"> About Us </button>
+		  			<Link to="/about"><button className="btn btn-default btn-lg"> About Us </button></Link>
 	  			</div>
 	  		</div>
 			</div>
