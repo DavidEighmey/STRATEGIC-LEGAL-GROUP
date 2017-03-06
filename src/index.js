@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Component } from 'react';
 import Header from './Header';
 import { render } from 'react-dom'
 import Landing from './Landing';
@@ -16,25 +14,7 @@ import RealEstate from './RealEstate';
 import Footer from './Footer';
 import About from './About';
 import './index.css';
-import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
-	
-
-// const App = React.createClass({
-//   render() {
-//     return (
-//     	<div>
-// 	    	<Header />
-// 				<Landing />
-// 				<Carousell />
-// 				<Team />
-// 				<BlogFrontPage />
-// 				<CustomReviews />
-// 				<SpecialOffers />
-// 				<Footer />
-// 			</div>
-//     )
-//   }
-// })
+import { Router, Route, hashHistory } from 'react-router';
 
 const FrontPage = React.createClass({
   render() {

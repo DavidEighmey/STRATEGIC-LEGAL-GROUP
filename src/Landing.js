@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
+import { Link } from 'react-router';
 import './Landing.css';
 
 class Landing extends Component{

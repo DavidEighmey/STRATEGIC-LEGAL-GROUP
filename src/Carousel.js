@@ -4,7 +4,7 @@ import elderLaw from './img/elderLaw.jpeg';
 import realEstate from './img/real-estate.jpeg';
 import estatePlanning from './img/estateplanning.jpeg';
 import { Carousel } from 'react-bootstrap';
-import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
+import { Link } from 'react-router';
 
 
 class Carousell extends Component{

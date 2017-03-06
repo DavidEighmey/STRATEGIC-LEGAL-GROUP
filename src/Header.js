@@ -3,7 +3,7 @@ import slg_logo from './SLG_Logo.png';
 import facebook from './facebook.ico';
 import twitter from './Twitter-icon.png';
 import linkedin from './linkedin-512.png';
-import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
+import { Link } from 'react-router'
 import './App.css';
 
 class Header extends Component{
