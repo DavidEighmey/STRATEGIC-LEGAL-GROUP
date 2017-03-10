@@ -18,7 +18,7 @@ class Header extends Component{
 			        <span className="icon-bar"></span>
 			        <span className="icon-bar"></span>
 			      </button>
-			      <a className="navbar-brand" href="#">
+			      <a className="navbar-brand" href="/">
         			<img alt="Brand" height="40" width="40"src={slg_logo} ></img>
       			</a>
 	        </div>

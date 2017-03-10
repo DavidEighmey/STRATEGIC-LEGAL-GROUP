@@ -14,7 +14,7 @@ import RealEstate from './RealEstate';
 import Footer from './Footer';
 import About from './About';
 import './index.css';
-import { Router, Route, hashHistory } from 'react-router';
+import { Router, Route, browserHistory } from 'react-router';
 
 const FrontPage = React.createClass({
   render() {
@@ -94,7 +94,7 @@ const RealEstatePage = React.createClass({
 })
 
 render((
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={FrontPage}>
     </Route>
     <Route path="estate-planning" component={EstatePlanningPage}>
