@@ -3,6 +3,12 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import './Footer.css';
 
+const Twitter = () => (
+		<div>
+			<a className="twitter-timeline" data-width="220" data-height="200" href="https://twitter.com/LawNorcal" src="//platform.twitter.com/widgets.js">Tweets by LawNorcal</a>
+			<div src="//platform.twitter.com/widgets.js"></div>
+		</div>
+	);
 
 class Footer extends Component {
   render() {
@@ -12,7 +18,7 @@ class Footer extends Component {
 			  	<Row className="show-grid">
 			  		<Col xs={12} md={3}>
 			  		<h5>Time</h5>
-		     			<p> 
+		     			<p>
 		     			Mon - Fri  8 a.m. - 5 p.m. <br/>
 							Weekends and evenings by  appointment. <br/>
 							We can even do house calls.<br/>
@@ -34,6 +40,7 @@ class Footer extends Component {
 		      	<Col xs={12} md={3}>
 		     			<h5>Our Latest Tweets</h5>
 							<p>Twitter widget will go right here</p>
+							<Twitter />
 		     		</Col>
 	  			</Row>
 	  		</div>

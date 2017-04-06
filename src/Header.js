@@ -6,9 +6,15 @@ import linkedin from './linkedin-512.png';
 import { Link } from 'react-router'
 import './App.css';
 
+const headerFixed = {
+	'position': 'fixed',
+	'width': '100%'
+};
+
 class Header extends Component{
   render(){
   	return (
+  		<div className="z" style={headerFixed}>
 	    <nav className="navbar navbar-default">
 	      <div className="container-fluid">
 	        <div className="navbar-header">
@@ -49,6 +55,7 @@ class Header extends Component{
 			    </div>
 	      </div>
 	    </nav>
+	    </div>
 		);
   }
 }
