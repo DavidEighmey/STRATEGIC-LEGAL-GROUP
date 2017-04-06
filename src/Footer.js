@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row } from 'react-bootstrap';
+import { Timeline } from 'react-twitter-widgets';
 import { Col } from 'react-bootstrap';
 import './Footer.css';
 
@@ -38,9 +39,18 @@ class Footer extends Component {
 		     			<p>map</p>
 		      	</Col>
 		      	<Col xs={12} md={3}>
-		     			<h5>Our Latest Tweets</h5>
-							<p>Twitter widget will go right here</p>
-							<Twitter />
+		      	<div className="twitter">
+							<Timeline
+						    dataSource={{
+						      sourceType: 'profile',
+						      screenName: 'LawNorcal'
+						    }}
+						    options={{
+						      username: 'LawNorcal',
+						      height: '300'
+						    }}
+						  />
+						 </div>
 		     		</Col>
 	  			</Row>
 	  		</div>
