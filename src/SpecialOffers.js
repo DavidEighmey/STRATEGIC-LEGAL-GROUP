@@ -6,9 +6,9 @@ import './SpecialOffers.css';
 class SpecialOffers extends Component {
   render() {
     return (
-    	<div className="jumbotron">
+    	<div className="backtotop">
 				<div className="container">
-					<h5 className="announcements">we can put Special Announcements and Offers here</h5>
+					<h5 className="announcements">Contact Us at (209) 683-1616</h5>
     		</div>
     	</div>
     );

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import businessLaw from './images/Business_Law-1.png';
+import businessLaw from './images/Business_Law-2.jpg';
 import './ElderLaw.css';
 
 
@@ -29,7 +29,7 @@ class Business extends Component{
 								Our primary purpose is to assist businesses through all stages of their development, including their creation and beyond. We specialize in working with small businesses.  At our firm, there are no small clients.  We are here to assist companies in getting started, creating a stable foundation and experiencing solid growth.  We work with our clients to develop strong and viable growth strategies.  Oftentimes these strategies include sound legal guidance where it is possible to resolve business disputes before they become costly legal battles.  An experienced business attorney can help you identify risks and opportunities that may otherwise go unnoticed.
 							</p>
 			  			<h3 className="elder-law-center">
-			  			Phone: (209) 683-1616
+			  			Contact Us: (209) 683-1616
 			  			</h3>
 		  			</div>
 		  		</div>

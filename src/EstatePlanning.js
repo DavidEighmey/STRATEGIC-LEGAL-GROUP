@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import estatePlanning from './images/Estate-Planning-2.png';
+import estatePlanning from './images/Estate-Planning-2.jpg';
 import './ElderLaw.css';
 
 

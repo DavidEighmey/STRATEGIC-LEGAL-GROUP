@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row } from 'react-bootstrap';
 import { Timeline } from 'react-twitter-widgets';
+import { Link } from 'react-router';
 import { Col } from 'react-bootstrap';
 import './Footer.css';
 
@@ -18,20 +19,24 @@ class Footer extends Component {
 	  		<div className="footer-content">
 			  	<Row className="show-grid">
 			  		<Col xs={12} md={3}>
-			  		<h5>Time</h5>
-		     			<p>
-		     			Mon - Fri  8 a.m. - 5 p.m. <br/>
-							Weekends and evenings by  appointment. <br/>
-							We can even do house calls.<br/>
-							add social icons right here
-							</p>
+			  		<h4>Site Map</h4>
+				  		<Link to="/">Home</Link><br/>
+				  		<Link to="/about">About Us</Link><br/>
+				  		<Link to="/">Blog</Link><br/>
+				  		<Link to="/estate-planning">Estate Planning</Link><br/>
+				  		<Link to="/elder-law">Elder Law</Link><br/>
+				  		<Link to="/business">Business</Link><br/>
+				  		<Link to="/real-estate">Real Estate</Link><br/>
 		      	</Col>
 		      	<Col xs={12} md={3}>
-		     			<h5>Address</h5>
+		     			<h4>Address</h4>
 		     			<p>Strategic Legal Group, PC. <br/>
 									121 West Main Street, Suite F <br/>
-									Turlock, CA 95380 <br/>
-									Phone: (209) 683-1616<br/>
+									Turlock, CA 95380 <br/><br/>
+									Phone: (209) 683-1616<br/><br/>
+									Mon - Fri  8am - 5pm<br/>
+									Weekends and evenings by  appointment.<br/>
+									We can even do house calls.<br/>
 							</p>
 		      	</Col>
 		      	<Col xs={12} md={3}>

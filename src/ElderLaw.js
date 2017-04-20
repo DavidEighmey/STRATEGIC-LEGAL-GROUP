@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import elderLaw from './images/Elder-Law-2.png';
+import elderLaw from './images/Elder-Law-2.jpg';
 import './ElderLaw.css';
 
 
@@ -25,7 +25,7 @@ class ElderLaw extends Component{
 								Our office also assist the families of special needs children and adults by showing families how to provide for their special needs without jeopardizing their benefits.
 							</p>
 			  			<h3 className="elder-law-center">
-			  				Phone: (209) 683-1616
+			  				Contact Us: (209) 683-1616
 			  			</h3>
 		  			</div>
 		  		</div>

@@ -5,3 +5,8 @@
 .landing-background{
 	color: black;
 }
+
+.slgBackground{
+	background-image: url("./images/Hero-1.jpg");
+	padding-bottom: 50px;
+}

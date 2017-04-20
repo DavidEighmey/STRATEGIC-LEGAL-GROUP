@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import realEstate from './images/Real-Estate-1.png';
+import realEstate from './images/Real-Estate-1.jpg';
 import './ElderLaw.css';
 
 
@@ -33,7 +33,7 @@ class RealEstate extends Component{
 								Our firm understands the unique legal challenges lying within any agricultural issue.  We place special emphasis on assisting members of our Central Valley agricultural community.  Whether you are interested in increasing your business, starting a new farm, ranch or dairy or want to protect the legacy you already have, we are here to help.
 							</p>
 			  			<h3 className="elder-law-center">
-			  			Phone: (209) 683-1616
+			  			Contact Us: (209) 683-1616
 			  			</h3>
 		  			</div>
 		  		</div>
